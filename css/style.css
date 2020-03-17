@@ -1,0 +1,218 @@
+
+body{
+  font-family:Raleway;
+}
+
+.textfont{
+  font-family:Lato;
+}
+
+.header{
+  position:fixed;            /* ヘッダーの固定 */
+  top: 0px;                   /* 位置(上0px) */
+  left:0px;                  /* 位置(右0px) */
+  width: 100%;
+  background-color:#fff;
+}
+
+.inner{
+  width:1100px;
+  margin:0 auto;
+}
+
+.contact{
+  font-size:12px;
+  padding:14px 12px;
+  background-color:#74cfae;
+  color:#FFF;
+  width:44px;
+  margin: 10px 20% 0 auto;
+  float:right;
+}
+
+.header .fas{
+  margin:15px 0 15px 20%;
+}
+
+.background{
+  background-color:#f2f2f2;
+  width:100%;
+}
+
+.Bolt_Theme{
+  font-size:90px;
+  font-weight:700;
+  color:#74cfae;
+  padding-top:250px;
+  text-align:center;
+}
+
+.Boothrap{
+  font-size:30px;
+  color:#c0c0c0;
+  margin:20px auto 0;
+  padding-bottom:250px;
+  text-align:center;
+}
+
+.background2{
+  background-color:#74cfae;
+  width:100%;
+}
+
+.flex_box{
+  display:flex;
+  padding-top:50px;
+}
+
+.iphone{
+}
+
+.text_box{
+  padding-top:10px;
+  margin:0 auto;
+  text-align:center;
+  width:70%;
+}
+
+.WHAT_WE_CAN_DO{
+  color:#fff;
+  font-size:24px;
+}
+
+.texting{
+  color:#fff;
+  margin:35px 0 0 25px;
+  font-size:20px;
+  width:100%
+}
+
+.LATEST_WORK{
+  padding-top:60px;
+  font-size:24px;
+  text-align:center;
+}
+
+.six_boxes{
+  margin-top:40px;
+}
+
+.Pepsiman{
+  margin-right:94px;
+}
+
+.second_boxes{
+  margin-top:80px;
+}
+
+.first_boxes .Pepsiman:last-child{
+  margin-right:0;
+}
+
+.second_boxes .Pepsiman:last-child{
+  margin-right:0;
+}
+
+.after_box{
+  padding:90px 0 70px 0;
+  margin:0 auto;
+  display:flex;
+}
+
+.texts{
+  margin:0 auto;
+  width:50%;
+  text-align:center;
+}
+
+.EMAIL{
+  font-size:12px;
+  padding:14px 20px;
+  background-color:#74cfae;
+  color:#FFF;
+  width:58px;
+  height:10px;
+  margin:0 auto;
+}
+
+.OUR_SKILLS{
+  font-size:24px;
+  color:#fff;
+  padding-top:70px;
+  text-align:center;
+}
+
+.background3{
+  background-color:#4e4e4e;
+  width:100%;
+}
+
+.circle_text{
+  color:#fff;
+  font-size:16px;
+  margin-left:20px;
+}
+
+.circle{
+  margin-right:180px;
+}
+
+.circle:last-child{
+  margin-right:0;
+}
+
+.circle_box{
+  display:flex;
+  padding-bottom:100px;
+}
+
+.icon_box{
+  padding:200px 0;
+  display:flex;
+  justify-content:center;
+}
+
+.icon_hover{
+  height:120px;
+  width:185px;
+  margin:0;
+  transition-duration:500ms;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.icon_hover .fab{
+  justify-content:center;
+  align-items: center;
+}
+
+.icon_hover .fas{
+  justify-content:center;
+  align-items: center;
+}
+
+.icon_hover:hover{
+  background-color:#fff;
+}
+
+.gray{
+  color:#4e4e4e;
+}
+
+.skyblue{
+  color:#74cfae;
+}
+
+.footer{
+  padding:20px 0 25px 0;
+  background-color:#74cfae;
+}
+
+.footer_text_wraper{
+  text-align:right;
+}
+
+.white{
+  color:#fff;
+}
