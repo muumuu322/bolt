@@ -13,6 +13,7 @@ body{
   left:0px;                  /* 位置(右0px) */
   width: 100%;
   background-color:#fff;
+  z-index:1;
 }
 
 .inner{
@@ -28,6 +29,14 @@ body{
   width:44px;
   margin: 10px 20% 0 auto;
   float:right;
+}
+
+.delay{
+  transition-duration:300ms;
+}
+
+.delay:hover{
+  color:#333;
 }
 
 .header .fas{
@@ -93,24 +102,26 @@ body{
   text-align:center;
 }
 
-.six_boxes{
+.made_item_inner{
   margin-top:40px;
 }
 
-.Pepsiman{
-  margin-right:94px;
+.made_item{
+  margin-left:94px;
+  opacity:0.7;
+  z-index:2;
 }
 
-.second_boxes{
+.made_item_inner .delay:hover{
+  opacity:1;
+}
+
+ .made_item_inner .made_item:nth-child(3n+1){
+  margin-left:0px;
+}
+
+.made_item_inner .made_item:nth-child(n+4){
   margin-top:80px;
-}
-
-.first_boxes .Pepsiman:last-child{
-  margin-right:0;
-}
-
-.second_boxes .Pepsiman:last-child{
-  margin-right:0;
 }
 
 .after_box{
@@ -176,7 +187,6 @@ body{
   height:120px;
   width:185px;
   margin:0;
-  transition-duration:500ms;
   display:flex;
   justify-content:center;
   align-items: center;
