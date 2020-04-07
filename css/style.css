@@ -7,8 +7,18 @@ body {
   font-family: Lato;
 }
 
+.clearfix::after {
+content: “”;
+display: block;
+clear: both;
+}
+
+.bring_front {
+  z-index: 1;
+}
+
 .header {
-  position: fixed;            /* ヘッダーの固定 */
+  position: sticky;            /* ヘッダーの固定 */
   top: 0px;                   /* 位置(上0px) */
   left: 0px;                  /* 位置(右0px) */
   width: 100%;
@@ -118,6 +128,7 @@ body {
   margin-left: 100px;
   opacity: 0.7;
   display: inline-block;
+  position: relative;
 }
 
 .made_item_inner .delay:hover {
@@ -133,8 +144,7 @@ body {
 }
 
 .after_box  {
-  padding: 90px 0 0 0;
-  margin: 0 auto;
+  padding-top: 90px;
   display: flex;
   justify-content: center;
 }
@@ -142,7 +152,7 @@ body {
 .texts  {
   width: 42%;
   text-align: center;
-  padding-right:90px;
+  margin-right:90px;
 }
 
 .email  {
@@ -157,7 +167,6 @@ body {
 .our_skills {
   font-size: 24px;
   color: #fff;
-  padding-bottom: 50px;
   text-align: center;
 }
 
@@ -186,6 +195,7 @@ body {
 }
 
 .circle_box {
+  padding-top: 50px;
   display: flex;
   justify-content: center;
 }
