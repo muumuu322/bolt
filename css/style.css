@@ -8,7 +8,7 @@ body {
 }
 
 .clearfix::after {
-content: “”;
+content: "";
 display: block;
 clear: both;
 }
@@ -18,9 +18,9 @@ clear: both;
 }
 
 .header {
-  position: sticky;            /* ヘッダーの固定 */
-  top: 0px;                   /* 位置(上0px) */
-  left: 0px;                  /* 位置(右0px) */
+  position: sticky;
+  top: 0px;
+  left: 0px;
   width: 100%;
   background-color: #fff;
   padding:  15px 0;
@@ -38,7 +38,6 @@ clear: both;
   color: #FFF;
   width: 44px;
   float: right;
-  padding:  14px 12px;
 }
 
 .delay {
@@ -49,20 +48,33 @@ clear: both;
   color: #333;
 }
 
-.gray_background {
+.title_bg {
   background-color: #f2f2f2;
   width: 100%;
+  padding: 250px 0 250px 0 ;
 }
 
-.gray_background:first-of-type {
-  padding: 320px 0 250px 0 ;
+.wwcd_bg {
+  background-color: #74cfae;
+  width: 100%;
+  padding-top: 50px;
 }
 
-.gray_background:nth-of-type(3) {
+.olw_bg {
+  background-color: #f2f2f2;
+  width: 100%;
   padding:60px 0 70px 0;
 }
 
-.gray_background:last-of-type {
+.os_bg {
+  background-color: #4e4e4e;
+  width: 100%;
+  padding:70px 0 100px 0;
+}
+
+.links_bg {
+  background-color: #f2f2f2;
+  width: 100%;
   padding: 200px 0;
 }
 
@@ -80,19 +92,17 @@ clear: both;
   text-align: center;
 }
 
-.skyblue_background {
-  background-color: #74cfae;
-  width: 100%;
-  padding-top: 50px;
-}
-
 .flex_box {
   display: flex;
 }
 
-.iphone {
+.iphone_box {
   width: 38%;
   text-align: center;
+}
+
+.iphone{
+  vertical-align: bottom;
 }
 
 .text_box {
@@ -121,38 +131,44 @@ clear: both;
 
 .made_item_inner {
   margin-top: 40px;
-  font-size: 0;
+}
+
+.made_item_list{
+  margin-left: 80px;
+  float: left;
+}
+
+.made_item_a{
+  opacity: 0.7;
 }
 
 .made_item {
-  margin-left: 100px;
-  opacity: 0.7;
-  display: inline-block;
-  position: relative;
+  vertical-align: bottom;
+  float: left;
+  display: block;
 }
 
-.made_item_inner .delay:hover {
+.made_item_list .delay:hover {
   opacity: 1;
 }
 
- .made_item_inner .made_item:nth-child(3n+1) {
+ .made_item_inner .made_item_list:nth-child(3n+1) {
   margin-left: 0px;
 }
 
-.made_item_inner .made_item:nth-child(n+4) {
+.made_item_inner .made_item_list:nth-child(n+4) {
   margin-top: 80px;
 }
 
 .after_box  {
-  padding-top: 90px;
-  display: flex;
-  justify-content: center;
+  margin-top: 90px;
 }
 
 .texts  {
-  width: 42%;
+  width: 49%;
   text-align: center;
-  margin-right:90px;
+  margin: 0 90px;
+  float: left;
 }
 
 .email  {
@@ -160,20 +176,13 @@ clear: both;
   padding: 14px 20px;
   background-color: #74cfae;
   color: #FFF;
-  width: 5%;
-  height: 10px;
+  float: left;
 }
 
 .our_skills {
   font-size: 24px;
   color: #fff;
   text-align: center;
-}
-
-.black_background {
-  background-color: #4e4e4e;
-  width: 100%;
-  padding:70px 0 100px 0;
 }
 
 .circle_text  {

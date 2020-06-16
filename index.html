@@ -10,9 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/style.css" media="(min-width: 1200px)">
-    <link rel="stylesheet" href="tablet.css" media="(min-width: 768px) and (max-width: 1199px)" >
-    <link rel="stylesheet" href="smartphone.css"  media="(max-width: 767px)" >
+    <link rel="stylesheet" href="css/style.css" >
     <script src="https://kit.fontawesome.com/dda60fd28a.js" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -22,81 +20,107 @@
         <a class="contact delay">Contact</a>
       </div>
     </header>
-    <div class="gray_background">
-      <div class="inner">
-        <p class="Bolt_Theme">Bolt Theme</p>
-        <p class="Boothrap">FREE BOOTHRAP THEMES</p>
-      </div>
-    </div>
-    <div class="skyblue_background">
-      <div class="inner flex_box">
-        <div class="iphone">
-          <img src="./img/iphone.png" alt="iphone">
-        </div>
-        <div class="text_box">
-          <p class="what_we_can_do">WHAT WE CAN DO?</p>
-          <p class="texting textfont">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    <main>
+      <div class="title_bg">
+        <div class="inner">
+          <h1 class="Bolt_Theme">Bolt Theme</h1>
+          <p class="Boothrap">FREE BOOTHRAP THEMES</p>
         </div>
       </div>
-    </div>
-    <div class="gray_background">
-      <div class="inner">
-        <p class="latest_word">OUR LATEST WORK</p>
-        <div class="made_item_inner">
-            <img class="made_item delay" src="./img/01.jpg">
-            <img class="made_item delay" src="./img/02.jpg">
-            <img class="made_item delay" src="./img/03.jpg">
-            <img class="made_item delay" src="./img/04.jpg">
-            <img class="made_item delay" src="./img/05.jpg">
-            <img class="made_item delay" src="./img/06.jpg">
-        </div>
-        <div class="after_box">
-          <p class="texts textfont">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-          <a class="email delay">Email Me!</a>
-        </div>
-      </div>
-    </div>
-    <div class="black_background">
-      <div class="inner">
-        <p class="our_skills">OUR SKILLS</p>
-        <div class="circle_box">
-          <div class="circle_inner">
-            <img src="./img/circle_01.png">
-            <p class="circle_text">JavaScript</p>
+      <section class="wwcd_bg">
+        <div class="inner flex_box">
+          <div class="iphone_box">
+            <img class="iphone"src="./img/iphone.png" alt="iphone">
           </div>
-          <div class="circle_inner">
-            <img src="./img/circle_02.png">
-            <p class="circle_text">Bootstrap</p>
-          </div>
-          <div class="circle_inner">
-            <img src="./img/circle_03.png">
-            <p class="circle_text">WordPress</p>
-          </div>
-          <div class="circle_inner">
-            <img src="./img/circle_04.png">
-            <p class="circle_text">Photoshop</p>
+          <div class="text_box">
+            <h2 class="what_we_can_do">WHAT WE CAN DO?</h2>
+            <p class="texting textfont">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="gray_background">
-      <div class="inner">
-        <div class="icon_box">
-          <a class="icon_hover delay">
-            <i class="fab fa-facebook-f fa-2x skyblue"></i>
-          </a>
-          <a class="icon_hover delay">
-            <i class="fas fa-basketball-ball fa-2x skyblue"></i>
-          </a>
-          <a class="icon_hover delay">
-            <i class="fab fa-twitter fa-2x skyblue"></i>
-          </a>
-          <a class="icon_hover delay">
-            <i class="fas fa-envelope fa-2x skyblue"></i>
-          </a>
+      </section>
+      <article class="olw_bg">
+        <div class="inner">
+          <h2 class="latest_word">OUR LATEST WORK</h2>
+          <ul class="made_item_inner clearfix">
+            <li class="made_item_list">
+              <a class="made_item_a delay" href="">
+                <img class="made_item" src="./img/01.jpg">
+              </a>
+            </li>
+            <li class="made_item_list">
+              <a class="made_item_a delay" href="">
+                <img class="made_item" src="./img/02.jpg">
+              </a>
+            </li>
+            <li class="made_item_list">
+              <a class="made_item_a delay" href="">
+                <img class="made_item" src="./img/03.jpg">
+              </a>
+            </li>
+            <li class="made_item_list">
+              <a class="made_item_a delay" href="">
+                <img class="made_item" src="./img/04.jpg">
+              </a>
+            </li>
+            <li class="made_item_list">
+              <a class="made_item_a delay" href="">
+                <img class="made_item" src="./img/05.jpg">
+              </a>
+            </li>
+            <li class="made_item_list">
+              <a class="made_item_a delay" href="">
+                <img class="made_item" src="./img/06.jpg">
+              </a>
+            </li>
+          </ul>
+          <div class="clearfix after_box">
+            <p class="texts textfont">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+            <a class="email delay">Email Me!</a>
+          </div>
         </div>
-      </div>
-    </div>
+      </article>
+      <section class="os_bg">
+        <div class="inner">
+          <h2 class="our_skills">OUR SKILLS</h2>
+          <div class="circle_box">
+            <div class="circle_inner">
+              <img src="./img/circle_01.png">
+              <p class="circle_text">JavaScript</p>
+            </div>
+            <div class="circle_inner">
+              <img src="./img/circle_02.png">
+              <p class="circle_text">Bootstrap</p>
+            </div>
+            <div class="circle_inner">
+              <img src="./img/circle_03.png">
+              <p class="circle_text">WordPress</p>
+            </div>
+            <div class="circle_inner">
+              <img src="./img/circle_04.png">
+              <p class="circle_text">Photoshop</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <nav class="links_bg">
+        <div class="inner">
+          <div class="icon_box">
+            <a class="icon_hover delay">
+              <i class="fab fa-facebook-f fa-2x skyblue"></i>
+            </a>
+            <a class="icon_hover delay">
+              <i class="fas fa-basketball-ball fa-2x skyblue"></i>
+            </a>
+            <a class="icon_hover delay">
+              <i class="fab fa-twitter fa-2x skyblue"></i>
+            </a>
+            <a class="icon_hover delay">
+              <i class="fas fa-envelope fa-2x skyblue"></i>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </main>
     <footer class="footer">
       <div class="inner">
         <div class="footer_text_wraper">
