@@ -173,9 +173,9 @@ clear: both;
 }
 
 .texts  {
-  width: 45%;
+  width: 50%;
   text-align: center;
-  margin: 0 90px;
+  padding: 0 90px;
   float: left;
 }
 
