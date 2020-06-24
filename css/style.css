@@ -97,7 +97,7 @@ clear: both;
 }
 
 .iphone_box {
-  width: 38%;
+  width: 30%;
   text-align: center;
 }
 
@@ -110,7 +110,7 @@ clear: both;
   margin: 0 auto;
   text-align: center;
   display: inline-block;
-  width: 68%;
+  width: 70%;
 }
 
 .what_we_can_do {
@@ -120,8 +120,9 @@ clear: both;
 
 .texting {
   color: #fff;
-  padding: 35px 0 0 25px;
+  margin: 35px 0 0 25px;
   font-size: 20px;
+  line-height:30px;
 }
 
 .latest_word {
@@ -165,7 +166,7 @@ clear: both;
 }
 
 .texts  {
-  width: 49%;
+  width: 45%;
   text-align: center;
   margin: 0 90px;
   float: left;
@@ -204,7 +205,7 @@ clear: both;
 }
 
 .circle_box {
-  padding-top: 50px;
+  margin-top: 50px;
   display: flex;
   justify-content: center;
 }
@@ -216,7 +217,7 @@ clear: both;
 }
 
 .icon_hover {
- padding:40px 0;
+ padding:30px 0;
  width:185px;
 }
 
