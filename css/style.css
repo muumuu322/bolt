@@ -1,10 +1,14 @@
 
 body {
-  font-family: Raleway;
+  font-family: Lato;
+}
+
+main {
+  padding-top: 15px;
 }
 
 .textfont {
-  font-family: Lato;
+  font-family: Raleway;
 }
 
 .clearfix::after {
@@ -92,12 +96,7 @@ clear: both;
   text-align: center;
 }
 
-.flex_box {
-  display: flex;
-}
-
 .iphone_box {
-  width: 30%;
   text-align: center;
 }
 
@@ -110,7 +109,6 @@ clear: both;
   margin: 0 auto;
   text-align: center;
   display: inline-block;
-  width: 70%;
 }
 
 .what_we_can_do {
@@ -120,7 +118,8 @@ clear: both;
 
 .texting {
   color: #fff;
-  margin: 35px 0 0 25px;
+  padding: 35px 0  25px 0;
+  margin: 0 auto;
   font-size: 20px;
   line-height:30px;
 }
@@ -141,8 +140,6 @@ clear: both;
 
 .made_item_list{
   height: 300px;
-  margin-left: 100px;
-  float: left;
 }
 
 .made_item_a{
@@ -160,23 +157,8 @@ clear: both;
   opacity: 1;
 }
 
- .made_item_inner .made_item_list:nth-child(3n+1) {
-  margin-left: 0px;
-}
-
-.made_item_inner .made_item_list:nth-child(n+4) {
-  margin-top: 80px;
-}
-
-.after_box  {
-  margin-top: 90px;
-}
-
 .texts  {
-  width: 50%;
   text-align: center;
-  padding: 0 90px;
-  float: left;
 }
 
 .email  {
@@ -184,7 +166,6 @@ clear: both;
   padding: 14px 20px;
   background-color: #74cfae;
   color: #FFF;
-  float: left;
 }
 
 .our_skills {
@@ -199,21 +180,12 @@ clear: both;
   text-align: center
 }
 
-.circle_inner {
-  margin-left: 180px;
-}
-
-.circle_inner:first-child {
-  margin-left: 0;
-}
-
 .circle:last-child  {
   margin-right: 0;
 }
 
 .circle_box {
   margin-top: 50px;
-  display: flex;
   justify-content: center;
 }
 
@@ -225,7 +197,6 @@ clear: both;
 
 .icon_hover {
  padding:30px 0;
- width:185px;
 }
 
 .icon_hover:hover {
@@ -251,4 +222,160 @@ clear: both;
 
 .white  {
   color: #fff;
+}
+
+@media screen and (min-width: 1200px) {
+.flex_box {
+  display: flex;
+}
+
+.iphone_box {
+ width: 30%;
+}
+
+.text_box {
+ width: 70%;
+}
+
+.made_item_list{
+ float: left;
+ margin-left: 100px;
+}
+
+.made_item_inner .made_item_list:nth-child(3n+1) {
+ margin-left: 0px;
+}
+
+.made_item_inner .made_item_list:nth-child(n+4) {
+ margin-top: 80px;
+}
+
+.after_box  {
+  margin-top: 90px;
+  padding-left: 100px;
+}
+
+.texts {
+  width: 65%;
+  margin-right: 90px;
+  float: left;
+}
+
+.email {
+  float: left;
+}
+
+.icon_hover{
+  width:185px;
+}
+
+.circle_box {
+  display: flex;
+}
+
+.circle_inner {
+  margin-left: 180px;
+}
+
+.circle_inner:first-child {
+  margin-left: 0;
+}
+
+}
+
+@media screen and (min-width: 798px) {
+  .icon_hover{
+    width:185px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+
+.inner {
+  width: 97%;
+}
+
+.text_box {
+ padding-top: 20px;
+}
+
+.texting {
+  width: 95%;
+}
+
+.made_item_list{
+  text-align: center;
+}
+
+.made_item_inner .made_item_list:nth-child(3n) {
+ margin-bottom: 80px;
+}
+
+.olw_bg {
+  padding: 60px 0 84px 0;
+}
+
+.after_box {
+  text-align: center;
+}
+
+.texts {
+ padding-bottom: 54px;
+}
+
+.email {
+  margin: 40px 0 70px 0;
+}
+
+.circle_inner {
+  text-align: center;
+  padding-bottom: 88px;
+}
+
+.circle_box .circle_inner:last-child {
+  padding-bottom: 0;
+}
+
+}
+@media screen and (max-width: 797px) {
+
+.hamburger_menu{
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: block;
+  float: right;
+  width: auto;
+}
+
+span:first-child{
+  margin-top: 0;
+}
+
+.contact{
+  display: none;
+}
+
+span{
+  height: 3px;
+  width: 25px;
+  border-radius: 4px;
+  background: #ddd;
+  content: '';
+  cursor: pointer;
+  display: block;
+  margin-top: 5px;
+}
+
+.title_bg{
+  padding: 230px 0 0130px 0;
+}
+
+.links_bg{
+  padding: 50px 15px;
+}
+
+.icon_box{
+  flex-direction: column;
+}
 }
