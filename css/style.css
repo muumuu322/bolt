@@ -3,8 +3,12 @@ body {
   font-family: Lato;
 }
 
+h1 {
+  font-family: Raleway;
+}
+
 main {
-  padding-top: 15px;
+  padding-top: 70px;
 }
 
 .textfont {
@@ -283,7 +287,7 @@ clear: both;
 
 }
 
-@media screen and (min-width: 798px) {
+@media screen and (min-width: 768px) {
   .icon_hover{
     width:185px;
   }
@@ -337,7 +341,7 @@ clear: both;
 }
 
 }
-@media screen and (max-width: 797px) {
+@media screen and (max-width: 767px) {
 
 .hamburger_menu{
   padding: 10px;
@@ -372,7 +376,7 @@ span{
 }
 
 .links_bg{
-  padding: 50px 15px;
+  padding: 50px 0px;
 }
 
 .icon_box{
