@@ -311,8 +311,12 @@ clear: both;
   text-align: center;
 }
 
+.made_item_inner {
+  margin-bottom:80px;  
+}
+
 .made_item_inner .made_item_list:nth-child(3n) {
- margin-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 .olw_bg {
