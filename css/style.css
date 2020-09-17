@@ -3,16 +3,12 @@ body {
   font-family: Lato;
 }
 
-h1 {
+.font_raleway{
   font-family: Raleway;
 }
 
 main {
   padding-top: 70px;
-}
-
-.textfont {
-  font-family: Raleway;
 }
 
 .clearfix::after {
@@ -199,8 +195,10 @@ clear: both;
   text-align: center;
 }
 
-.icon_hover {
- padding:30px 0;
+.icon_click {
+ padding: 30px 0;
+ display: block;
+ width: 185px;
 }
 
 .icon_hover:hover {
@@ -269,7 +267,7 @@ clear: both;
   float: left;
 }
 
-.icon_hover{
+.icon_click {
   width:185px;
 }
 
@@ -287,12 +285,6 @@ clear: both;
 
 }
 
-@media screen and (min-width: 768px) {
-  .icon_hover{
-    width:185px;
-  }
-}
-
 @media screen and (max-width: 1199px) {
 
 .inner {
@@ -301,6 +293,10 @@ clear: both;
 
 .text_box {
  padding-top: 20px;
+}
+
+.os_bg {
+  padding: 70px 0 88px 0;
 }
 
 .texting {
@@ -312,7 +308,7 @@ clear: both;
 }
 
 .made_item_inner {
-  margin-bottom:80px;  
+  margin-bottom:80px;
 }
 
 .made_item_inner .made_item_list:nth-child(3n) {
@@ -341,49 +337,52 @@ clear: both;
 }
 
 .circle_box .circle_inner:last-child {
-  padding-bottom: 0;
+  margin-bottom: 0;
+}
 }
 
-}
-@media screen and (max-width: 767px) {
+@media screen and (max-width:768px){
+  .hamburger_menu{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: block;
+    float: right;
+    width: auto;
+  }
 
-.hamburger_menu{
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  display: block;
-  float: right;
-  width: auto;
-}
-
-span:first-child{
-  margin-top: 0;
+.os_bg {
+ padding:70px 0 100px 0;
 }
 
-.contact{
-  display: none;
-}
+  span:first-child{
+    margin-top: 0;
+  }
 
-span{
-  height: 3px;
-  width: 25px;
-  border-radius: 4px;
-  background: #ddd;
-  content: '';
-  cursor: pointer;
-  display: block;
-  margin-top: 5px;
-}
+  .contact{
+    display: none;
+  }
 
-.title_bg{
-  padding: 160px 0 0130px 0;
-}
+  span{
+    height: 3px;
+    width: 25px;
+    border-radius: 4px;
+    background: #ddd;
+    content: '';
+    cursor: pointer;
+    display: block;
+    margin-top: 5px;
+  }
 
-.links_bg{
-  padding: 50px 0px;
-}
+  .title_bg{
+    padding: 160px 0 0130px 0;
+  }
 
-.icon_box{
-  flex-direction: column;
-}
+  .links_bg{
+    padding: 50px 0px;
+  }
+
+  .icon_box{
+    flex-direction: column;
+  }
 }
