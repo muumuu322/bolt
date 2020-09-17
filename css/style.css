@@ -324,7 +324,7 @@ clear: both;
 }
 
 .texts {
- padding-bottom: 54px;
+ margin-bottom: 54px;
 }
 
 .email {
@@ -333,7 +333,7 @@ clear: both;
 
 .circle_inner {
   text-align: center;
-  padding-bottom: 88px;
+  margin-bottom: 88px;
 }
 
 .circle_box .circle_inner:last-child {
@@ -372,7 +372,7 @@ span{
 }
 
 .title_bg{
-  padding: 230px 0 0130px 0;
+  padding: 160px 0 0130px 0;
 }
 
 .links_bg{
